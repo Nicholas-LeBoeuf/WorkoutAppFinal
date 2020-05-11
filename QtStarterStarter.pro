@@ -1,9 +1,9 @@
 QT += widgets
 requires(qtConfig(combobox))
 
-HEADERS     = QtStarter.h
-SOURCES     = QtStarter.cpp QtStarterGame.cpp
-FORMS       = QtStarterMainWindow.ui
+HEADERS     = QtStarter.h QtWorkoutSelectionWindow.h
+SOURCES     = QtStarter.cpp QtStarterGame.cpp QtWorkoutSelectionWindow.cpp
+FORMS       = QtStarterMainWindow.ui QtWorkoutSelectionWindow.ui
 RESOURCES   = QtStarterResources.qrc
 
 # install

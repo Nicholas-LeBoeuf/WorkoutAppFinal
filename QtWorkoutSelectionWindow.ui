@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>Dialog</class>
- <widget class="QDialog" name="Dialog">
+ <class>QtWorkoutSelectionWindow</class>
+ <widget class="QDialog" name="QtWorkoutSelectionWindow">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -13,10 +13,10 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <widget class="QDialogButtonBox" name="buttonBox">
+  <widget class="QDialogButtonBox" name="okCancelButton">
    <property name="geometry">
     <rect>
-     <x>30</x>
+     <x>40</x>
      <y>240</y>
      <width>341</width>
      <height>32</height>
@@ -33,9 +33,9 @@
  <resources/>
  <connections>
   <connection>
-   <sender>buttonBox</sender>
+   <sender>okCancelButton</sender>
    <signal>accepted()</signal>
-   <receiver>Dialog</receiver>
+   <receiver>QtWorkoutSelectionWindow</receiver>
    <slot>accept()</slot>
    <hints>
     <hint type="sourcelabel">
@@ -49,9 +49,9 @@
    </hints>
   </connection>
   <connection>
-   <sender>buttonBox</sender>
+   <sender>okCancelButton</sender>
    <signal>rejected()</signal>
-   <receiver>Dialog</receiver>
+   <receiver>QtWorkoutSelectionWindow</receiver>
    <slot>reject()</slot>
    <hints>
     <hint type="sourcelabel">

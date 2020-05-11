@@ -1,9 +1,5 @@
-//
-// Created by Arana Fireheart on 2/2/20.
-//
-
-#ifndef QTSTARTERSTARTER_QTSTARTER_H
-#define QTSTARTERSTARTER_QTSTARTER_H
+#ifndef WORKOUTAPPFINAL_QTSTARTER_H
+#define WORKOUTAPPFINAL_QTSTARTER_H
 
 #include "ui_QtStarterMainWindow.h"
 #include <QMainWindow>
@@ -16,13 +12,9 @@ public:
     void printStringRep();
     void updateUI();
 
-private:
-    bool dummyVariable;
-    std::string textOutput;
-
 public Q_SLOTS:
     void pushButtonClickedHandler();
 
 };
 
-#endif //QTSTARTERSTARTER_QTSTARTER_H
+#endif //WORKOUTAPPFINAL_QTSTARTER_H
