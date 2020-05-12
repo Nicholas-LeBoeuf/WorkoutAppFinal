@@ -14,6 +14,8 @@ public:
 
 public Q_SLOTS:
     void okCancelButtonClickedHandler();
+    void corePushButtonClickedHandler();
+    void cardioPushButtonClickedHandler();
     void upperBodyPushButtonClickedHandler();
     void lowerBodyPushButtonClickedHandler();
 };
