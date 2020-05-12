@@ -6,6 +6,7 @@
 #include "QtStarter.h"
 #include "QtUpperBody.h"
 #include "QtCore.h"
+#include "QtCardio.h"
 
 QtWorkoutSelectionWindow :: QtWorkoutSelectionWindow(QDialog *parent) {
     setupUi(this);
@@ -13,6 +14,7 @@ QtWorkoutSelectionWindow :: QtWorkoutSelectionWindow(QDialog *parent) {
     QObject::connect(okCancelButton, SIGNAL(accepted()), this, SLOT(okCancelButtonClickedHandler()));
     QObject::connect(dialogPushButton, SIGNAL(clicked()), this, SLOT(dialogPushButtonClickedHandler()));
     QObject::connect(corePushButton, SIGNAL(clicked()), this, SLOT(corePushButtonClickedHandler()));
+    QObject::connect(cardioPushButton, SIGNAL(clicked()), this, SLOT(cardioPushButtonClickedHandler()));
 }
 void QtWorkoutSelectionWindow::printStringRep() {
     return;
@@ -33,5 +35,11 @@ void QtWorkoutSelectionWindow::corePushButtonClickedHandler() {
     printf("Inside corePushButtonClickedHandler()\n");
     QtCore QtCore;
     QtCore.exec();
+    updateUI();
+}
+void QtWorkoutSelectionWindow::cardioPushButtonClickedHandler() {
+    printf("Inside cardioPushButtonClickedHandler()\n");
+    QtCardio QtCardio;
+    QtCardio.exec();
     updateUI();
 }
