@@ -29,6 +29,32 @@
     <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
    </property>
   </widget>
+  <widget class="QPushButton" name="upperBodyPushButton">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>40</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Upper Body</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="lowerBodyPushButton">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>90</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Lower Body</string>
+   </property>
+  </widget>
  </widget>
  <resources/>
  <connections>
