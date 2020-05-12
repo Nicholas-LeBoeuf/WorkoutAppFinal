@@ -32,14 +32,27 @@
   <widget class="QPushButton" name="dialogPushButton">
    <property name="geometry">
     <rect>
-     <x>60</x>
+     <x>130</x>
      <y>50</y>
-     <width>271</width>
-     <height>131</height>
+     <width>141</width>
+     <height>51</height>
     </rect>
    </property>
    <property name="text">
     <string>PushButton</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>202</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Core</string>
    </property>
   </widget>
  </widget>

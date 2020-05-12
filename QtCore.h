@@ -1,0 +1,8 @@
+//
+// Created by User on 5/12/2020.
+//
+
+#ifndef WORKOUTAPPFINAL_QTCORE_H
+#define WORKOUTAPPFINAL_QTCORE_H
+
+#endif //WORKOUTAPPFINAL_QTCORE_H
