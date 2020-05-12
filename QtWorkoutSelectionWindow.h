@@ -14,6 +14,7 @@ public:
 
 public Q_SLOTS:
     void okCancelButtonClickedHandler();
+    void dialogPushButtonClickedHandler();
 };
 
 #endif //WORKOUTAPPFINAL_QTWORKOUTSELECTIONWINDOW_H
