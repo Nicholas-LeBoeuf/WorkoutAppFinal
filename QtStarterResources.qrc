@@ -1,5 +1,7 @@
 <RCC>
   <qresource>
+    <file alias="gymDude">BodyBuilderPNG.png</file>
+    <file alias="gymBackground">gymBackground.jpg</file>
     <file alias="background">dumbell.png</file>
   </qresource>
 </RCC>
