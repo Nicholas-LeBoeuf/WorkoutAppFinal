@@ -10,7 +10,7 @@ QtWorkoutSelectionWindow :: QtWorkoutSelectionWindow(QDialog *parent) {
     setupUi(this);
 
     QObject::connect(okCancelButton, SIGNAL(accepted()), this, SLOT(okCancelButtonClickedHandler()));
-    QObject::connect(dialogPushButton, SIGNAL(clicked()), this, SLOT(dialogPushButtonClickedHandler()));
+    QObject::connect(upperBodyPushButton, SIGNAL(clicked()), this, SLOT(dialogPushButtonClickedHandler()));
 }
 void QtWorkoutSelectionWindow::printStringRep() {
     return;
