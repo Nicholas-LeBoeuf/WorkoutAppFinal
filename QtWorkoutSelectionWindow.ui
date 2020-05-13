@@ -23,53 +23,85 @@ QLabel { background: transparent; }</string>
   <widget class="QPushButton" name="upperBodyPushButton">
    <property name="geometry">
     <rect>
-     <x>240</x>
-     <y>110</y>
-     <width>151</width>
-     <height>51</height>
+     <x>230</x>
+     <y>140</y>
+     <width>241</width>
+     <height>81</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: transparent;
+border-image: url(:/upperBodyButton);
+background: none;
+border: none;
+background-repeat: none;
+</string>
+   </property>
    <property name="text">
-    <string>Upper Body</string>
+    <string/>
    </property>
   </widget>
   <widget class="QPushButton" name="lowerBodyPushButton">
    <property name="geometry">
     <rect>
-     <x>240</x>
-     <y>440</y>
-     <width>151</width>
-     <height>51</height>
+     <x>230</x>
+     <y>410</y>
+     <width>241</width>
+     <height>81</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: transparent;
+border-image: url(:/lowerBodyButton);
+background: none;
+border: none;
+background-repeat: none;
+</string>
+   </property>
    <property name="text">
-    <string>Lower Body</string>
+    <string/>
    </property>
   </widget>
   <widget class="QPushButton" name="corePushButton">
    <property name="geometry">
     <rect>
-     <x>240</x>
-     <y>330</y>
-     <width>151</width>
-     <height>51</height>
+     <x>230</x>
+     <y>320</y>
+     <width>241</width>
+     <height>81</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: transparent;
+border-image: url(:/coreButton);
+background: none;
+border: none;
+background-repeat: none;
+</string>
+   </property>
    <property name="text">
-    <string>Core</string>
+    <string/>
    </property>
   </widget>
   <widget class="QPushButton" name="cardioPushButton">
    <property name="geometry">
     <rect>
-     <x>240</x>
-     <y>220</y>
-     <width>151</width>
-     <height>51</height>
+     <x>230</x>
+     <y>230</y>
+     <width>241</width>
+     <height>81</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: transparent;
+border-image: url(:/cardioButton);
+background: none;
+border: none;
+background-repeat: none;
+</string>
+   </property>
    <property name="text">
-    <string>Cardio</string>
+    <string/>
    </property>
   </widget>
   <widget class="QLabel" name="gymDude">
