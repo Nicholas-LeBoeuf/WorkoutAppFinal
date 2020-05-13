@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>758</width>
-    <height>589</height>
+    <width>1128</width>
+    <height>728</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -23,8 +23,8 @@ QLabel { background: transparent; }</string>
   <widget class="QPushButton" name="upperBodyPushButton">
    <property name="geometry">
     <rect>
-     <x>230</x>
-     <y>140</y>
+     <x>560</x>
+     <y>180</y>
      <width>241</width>
      <height>81</height>
     </rect>
@@ -44,8 +44,8 @@ background-repeat: none;
   <widget class="QPushButton" name="lowerBodyPushButton">
    <property name="geometry">
     <rect>
-     <x>230</x>
-     <y>410</y>
+     <x>560</x>
+     <y>510</y>
      <width>241</width>
      <height>81</height>
     </rect>
@@ -65,8 +65,8 @@ background-repeat: none;
   <widget class="QPushButton" name="corePushButton">
    <property name="geometry">
     <rect>
-     <x>230</x>
-     <y>320</y>
+     <x>560</x>
+     <y>400</y>
      <width>241</width>
      <height>81</height>
     </rect>
@@ -86,8 +86,8 @@ background-repeat: none;
   <widget class="QPushButton" name="cardioPushButton">
    <property name="geometry">
     <rect>
-     <x>230</x>
-     <y>230</y>
+     <x>560</x>
+     <y>290</y>
      <width>241</width>
      <height>81</height>
     </rect>
@@ -107,10 +107,10 @@ background-repeat: none;
   <widget class="QLabel" name="gymDude">
    <property name="geometry">
     <rect>
-     <x>400</x>
+     <x>760</x>
      <y>80</y>
-     <width>351</width>
-     <height>431</height>
+     <width>361</width>
+     <height>551</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -121,6 +121,28 @@ background-repeat: none;
    </property>
    <property name="pixmap">
     <pixmap resource="QtStarterResources.qrc">:/gymDude</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>50</y>
+     <width>451</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="QtStarterResources.qrc">:/chalkboard</pixmap>
    </property>
    <property name="scaledContents">
     <bool>true</bool>

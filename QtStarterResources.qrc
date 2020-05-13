@@ -7,5 +7,6 @@
     <file alias="lowerBodyButton">lowerBodyButton.png</file>
     <file alias="coreButton">coreButton.png</file>
     <file alias="cardioButton">cardioButton.png</file>
+    <file alias="chalkboard">chalkboard.png</file>
   </qresource>
 </RCC>
