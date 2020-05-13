@@ -13,7 +13,6 @@ public:
     void updateUI();
 
 public Q_SLOTS:
-    void okCancelButtonClickedHandler();
     void corePushButtonClickedHandler();
     void cardioPushButtonClickedHandler();
     void upperBodyPushButtonClickedHandler();

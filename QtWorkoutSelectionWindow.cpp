@@ -12,7 +12,6 @@
 QtWorkoutSelectionWindow :: QtWorkoutSelectionWindow(QDialog *parent) {
     setupUi(this);
 
-    QObject::connect(okCancelButton, SIGNAL(accepted()), this, SLOT(okCancelButtonClickedHandler()));
     QObject::connect(corePushButton, SIGNAL(clicked()), this, SLOT(corePushButtonClickedHandler()));
     QObject::connect(cardioPushButton, SIGNAL(clicked()), this, SLOT(cardioPushButtonClickedHandler()));
     QObject::connect(upperBodyPushButton, SIGNAL(clicked()), this, SLOT(upperBodyPushButtonClickedHandler()));
@@ -23,9 +22,6 @@ void QtWorkoutSelectionWindow::printStringRep() {
 }
 void QtWorkoutSelectionWindow::updateUI() {
 
-}
-void QtWorkoutSelectionWindow::okCancelButtonClickedHandler() {
-    printf("Inside okCancelButtonClickedHandler()\n");
 }
 void QtWorkoutSelectionWindow::upperBodyPushButtonClickedHandler() {
     printf("Inside upperBodyPushButtonClickedHandler()\n");
