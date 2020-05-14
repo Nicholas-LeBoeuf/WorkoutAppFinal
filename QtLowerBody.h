@@ -12,8 +12,12 @@ public:
     void printStringRep();
     void updateUI();
 
+private:
+    std::string lowerWorkoutOutput;
+
 public Q_SLOTS:
-    void okCancelButtonClickedHandler();
+    void lowerPushButtonClickedHandler();
+
 };
 
 #endif //WORKOUTAPPFINAL_QTLOWERBODY_H

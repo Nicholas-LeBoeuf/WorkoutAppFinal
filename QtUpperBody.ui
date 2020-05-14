@@ -67,9 +67,9 @@ background-repeat: none;
    <property name="geometry">
     <rect>
      <x>510</x>
-     <y>-10</y>
-     <width>601</width>
-     <height>321</height>
+     <y>40</y>
+     <width>581</width>
+     <height>301</height>
     </rect>
    </property>
    <property name="font">
@@ -78,6 +78,10 @@ background-repeat: none;
      <weight>75</weight>
      <bold>true</bold>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(74, 74, 74);
+</string>
    </property>
    <property name="text">
     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#010101;&quot;&gt;Click the &amp;quot;Next Workout&amp;quot; button to get started!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>

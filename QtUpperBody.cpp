@@ -1,4 +1,3 @@
-#include "QtUpperBody.h"
 #include <iostream>
 #include <cstdio>
 
@@ -7,12 +6,14 @@
 #include "QtWorkoutSelectionWindow.h"
 
 QtUpperBody :: QtUpperBody(QDialog *parent):
+
     workoutOutput { "" }
 
 {
     setupUi(this);
 
     QObject::connect(upperPushButton, SIGNAL(clicked()), this, SLOT(upperPushButtonClickedHandler()));
+
 }
 void QtUpperBody::printStringRep() {
     return;
@@ -39,7 +40,7 @@ void QtUpperBody::upperPushButtonClickedHandler() {
         workoutOutput = "45 seconds of High Plank to Low Plank";
     }
     else if (workoutOutput == "45 seconds of High Plank to Low Plank") {
-        workoutOutput = "Upper body workout finished! Great job!";
+        workoutOutput = "Upper body workout complete! Great job!";
     }
 
     updateUI();

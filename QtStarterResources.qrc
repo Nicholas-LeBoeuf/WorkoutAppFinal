@@ -17,6 +17,6 @@
     <file alias="coreBackground">coreBackground.png</file>
     <file alias="upperBodyChalk">upperBodyChalk.png</file>
     <file alias="next">nextButton.png</file>
-    <file alias="blankChalkboard">blankChalkboard.png</file>
+    <file alias="lowerBodyChalk">lowerBodyChalk.png</file>
   </qresource>
 </RCC>
