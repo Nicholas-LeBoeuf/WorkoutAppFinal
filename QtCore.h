@@ -15,11 +15,11 @@ public:
     void updateUI();
 
 private:
-    bool dummyVariable;
-    std::string timeOutput;
+    std::string coreWorkoutOutput;
 
 public Q_SLOTS:
-    void pushButtonClickedHandler();
+    void corePushButtonClickedHandler();
+
 };
 
 #endif //WORKOUTAPPFINAL_QTCORE_H

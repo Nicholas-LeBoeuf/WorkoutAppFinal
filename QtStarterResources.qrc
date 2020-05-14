@@ -18,5 +18,6 @@
     <file alias="upperBodyChalk">upperBodyChalk.png</file>
     <file alias="next">nextButton.png</file>
     <file alias="lowerBodyChalk">lowerBodyChalk.png</file>
+    <file alias="coreChalk">coreChalk.png</file>
   </qresource>
 </RCC>
