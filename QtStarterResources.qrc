@@ -11,5 +11,9 @@
     <file alias="welcome">welcomeBackground.png</file>
     <file alias="welcomeChalkboard">welcomeChalkboard.png</file>
     <file alias="welcomeButton">welcomeButton.png</file>
+    <file alias="upperBackground">upperBodyBackground.png</file>
+    <file alias="lowerBackground">lowerBackground.png</file>
+    <file alias="cardioBackground">cardioBackground.png</file>
+    <file alias="coreBackground">coreBackground.png</file>
   </qresource>
 </RCC>

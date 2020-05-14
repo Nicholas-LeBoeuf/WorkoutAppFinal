@@ -29,7 +29,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${Qt5Widgets_EXECUTABLE_COMPILE_FLAGS}")
 qt5_generate_moc(crapsGame.cpp crapsGame.moc craps.cpp craps.moc)
 
 
-add_executable(WorkoutAppFinal QtStarter.cpp QtStarter.h QtStarterGame.cpp QtStarterMainWindow.ui QtWorkoutSelectionWindow.ui QtWorkoutSelectionWindow.cpp QtWorkoutSelectionWindow.h QtUpperBody.cpp QtUpperBody.h QtLowerBody.cpp QtLowerBody.h QtCore.cpp QtCore.h QtCardio.cpp QtCardio.h QtStarterResources.qrc)
+add_executable(WorkoutAppFinal QtStarter.cpp QtStarter.h QtStarterGame.cpp QtStarterMainWindow.ui QtWorkoutSelectionWindow.ui QtStarterResources.qrc QtWorkoutSelectionWindow.cpp QtWorkoutSelectionWindow.h QtUpperBody.cpp QtUpperBody.h QtLowerBody.cpp QtLowerBody.h QtCore.cpp QtCore.h QtCardio.cpp QtCardio.h)
 
 #Link the QtStarter executable to the Qt 5 widgets library.
 target_link_libraries(WorkoutAppFinal Qt5::Widgets)
