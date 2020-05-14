@@ -1,9 +1,6 @@
-//
-// Created by User on 5/12/2020.
-//
-
 #ifndef WORKOUTAPPFINAL_QTCARDIO_H
 #define WORKOUTAPPFINAL_QTCARDIO_H
+
 #include "ui_QtCardio.h"
 #include <QDialog>
 
@@ -15,8 +12,13 @@ public:
     void printStringRep();
     void updateUI();
 
+private:
+    std::string cardioWorkoutOutput;
+
 public Q_SLOTS:
-    void okCancelButtonClickedHandler();
+    void cardioPushButtonClickedHandler();
+
 };
+
 
 #endif //WORKOUTAPPFINAL_QTCARDIO_H

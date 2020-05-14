@@ -12,8 +12,12 @@ public:
     void printStringRep();
     void updateUI();
 
+private:
+    std::string upperWorkoutOutput;
+
 public Q_SLOTS:
-    void okCancelButtonClickedHandler();
+    void upperPushButtonClickedHandler();
+
 };
 
 

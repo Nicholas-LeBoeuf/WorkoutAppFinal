@@ -4,6 +4,7 @@
 
 #include "ui_QtCore.h"
 #include <QDialog>
+#include <QTimer>
 
 class QtCore : public QDialog, private Ui::QtCore {
 Q_OBJECT
@@ -13,8 +14,12 @@ public:
     void printStringRep();
     void updateUI();
 
+private:
+    std::string coreWorkoutOutput;
+
 public Q_SLOTS:
-    void okCancelButtonClickedHandler();
+    void corePushButtonClickedHandler();
+
 };
 
 #endif //WORKOUTAPPFINAL_QTCORE_H
