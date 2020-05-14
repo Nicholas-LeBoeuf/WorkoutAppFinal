@@ -20,30 +20,38 @@
    <bool>false</bool>
   </property>
   <property name="styleSheet">
-   <string notr="true">QMainWindow {border-image: url(:/background);}
+   <string notr="true">QMainWindow {border-image: url(:/welcome)}
 QLabel { background: transparent; }</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>220</x>
-      <y>251</y>
-      <width>231</width>
-      <height>161</height>
+      <x>730</x>
+      <y>450</y>
+      <width>361</width>
+      <height>211</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+border-image: url(:/welcomeButton);
+background: none;
+border: none;
+background-repeat: none;
+</string>
+    </property>
     <property name="text">
-     <string>PushButton</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="textOutputUI">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>180</y>
-      <width>321</width>
-      <height>41</height>
+      <x>600</x>
+      <y>10</y>
+      <width>591</width>
+      <height>381</height>
      </rect>
     </property>
     <property name="font">
@@ -52,10 +60,19 @@ QLabel { background: transparent; }</string>
      </font>
     </property>
     <property name="text">
-     <string>A</string>
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="QtStarterResources.qrc">:/welcomeChalkboard</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
     </property>
    </widget>
   </widget>

@@ -8,5 +8,8 @@
     <file alias="coreButton">coreButton.png</file>
     <file alias="cardioButton">cardioButton.png</file>
     <file alias="chalkboard">chalkboard.png</file>
+    <file alias="welcome">welcomeBackground.png</file>
+    <file alias="welcomeChalkboard">welcomeChalkboard.png</file>
+    <file alias="welcomeButton">welcomeButton.png</file>
   </qresource>
 </RCC>
