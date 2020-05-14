@@ -33,5 +33,3 @@ add_executable(WorkoutAppFinal QtStarter.cpp QtStarter.h QtStarterGame.cpp QtSta
 
 #Link the QtStarter executable to the Qt 5 widgets library.
 target_link_libraries(WorkoutAppFinal Qt5::Widgets)
-
-

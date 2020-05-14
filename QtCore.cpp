@@ -1,21 +1,27 @@
-#include "QtCore.h"
 #include <iostream>
 #include <cstdio>
 
+#include "QtCore.h"
 #include "ui_QtCore.h"
 #include "QtWorkoutSelectionWindow.h"
+#include <string>
 
-QtCore :: QtCore(QDialog *parent) {
+QtCore :: QtCore(QDialog *parent):
+
+    dummyVariable { true },
+    timeOutput{ "" }
+{
     setupUi(this);
 
-    /*QObject::connect(okCancelButton, SIGNAL(accepted()), this, SLOT(okCancelButtonClickedHandler()));*/
+
 }
 void QtCore::printStringRep() {
     return;
 }
 void QtCore::updateUI() {
-
 }
-void QtCore::okCancelButtonClickedHandler() {
-    printf("Inside okCancelButtonClickedHandler()\n");
+void QtCore::pushButtonClickedHandler() {
+    printf("Inside pushButtonClickedHandler()\n");
+
+
 }
