@@ -13,7 +13,7 @@ public:
     void updateUI();
 
 private:
-    std::string workoutOutput;
+    std::string upperWorkoutOutput;
 
 public Q_SLOTS:
     void upperPushButtonClickedHandler();

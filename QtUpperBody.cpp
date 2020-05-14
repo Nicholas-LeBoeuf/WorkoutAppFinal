@@ -7,7 +7,7 @@
 
 QtUpperBody :: QtUpperBody(QDialog *parent):
 
-    workoutOutput { "" }
+    upperWorkoutOutput { "" }
 
 {
     setupUi(this);
@@ -19,28 +19,28 @@ void QtUpperBody::printStringRep() {
     return;
 }
 void QtUpperBody::updateUI() {
-    workoutOutputUI->setText(QString::fromStdString(workoutOutput));
+    upperWorkoutOutputUI->setText(QString::fromStdString(upperWorkoutOutput));
 }
 void QtUpperBody::upperPushButtonClickedHandler() {
     printf("Inside upperPushButtonClickedHandler()\n");
 
-    if (workoutOutput == "") {
-        workoutOutput = "45 seconds of Push Ups";
+    if (upperWorkoutOutput == "") {
+        upperWorkoutOutput = "45 seconds of Push Ups";
     }
-    else if (workoutOutput == "45 seconds of Push Ups") {
-        workoutOutput = "45 seconds of Triceps Dips";
+    else if (upperWorkoutOutput == "45 seconds of Push Ups") {
+        upperWorkoutOutput = "45 seconds of Triceps Dips";
     }
-    else if (workoutOutput == "45 seconds of Triceps Dips") {
-        workoutOutput = "45 seconds of Plank Shoulder Taps";
+    else if (upperWorkoutOutput == "45 seconds of Triceps Dips") {
+        upperWorkoutOutput = "45 seconds of Plank Shoulder Taps";
     }
-    else if (workoutOutput == "45 seconds of Plank Shoulder Taps") {
-        workoutOutput = "45 seconds of Diamond Push Ups (use a wall)";
+    else if (upperWorkoutOutput == "45 seconds of Plank Shoulder Taps") {
+        upperWorkoutOutput = "45 seconds of Diamond Push Ups (use a wall)";
     }
-    else if (workoutOutput == "45 seconds of Diamond Push Ups (use a wall)") {
-        workoutOutput = "45 seconds of High Plank to Low Plank";
+    else if (upperWorkoutOutput == "45 seconds of Diamond Push Ups (use a wall)") {
+        upperWorkoutOutput = "45 seconds of High Plank to Low Plank";
     }
-    else if (workoutOutput == "45 seconds of High Plank to Low Plank") {
-        workoutOutput = "Upper body workout complete! Great job!";
+    else if (upperWorkoutOutput == "45 seconds of High Plank to Low Plank") {
+        upperWorkoutOutput = "Upper body workout complete! Great job!";
     }
 
     updateUI();

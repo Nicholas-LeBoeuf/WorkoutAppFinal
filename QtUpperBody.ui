@@ -63,7 +63,7 @@ background-repeat: none;
     <string/>
    </property>
   </widget>
-  <widget class="QLabel" name="workoutOutputUI">
+  <widget class="QLabel" name="upperWorkoutOutputUI">
    <property name="geometry">
     <rect>
      <x>510</x>
