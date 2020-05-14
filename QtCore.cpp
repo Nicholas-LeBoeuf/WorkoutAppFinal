@@ -13,6 +13,7 @@ QtCore :: QtCore(QDialog *parent):
     setupUi(this);
 
     QObject::connect(corePushButton, SIGNAL(clicked()), this, SLOT(corePushButtonClickedHandler()));
+    QObject::connect(closePushButton, SIGNAL(clicked()), this, SLOT(close()));
 
 }
 void QtCore::printStringRep() {

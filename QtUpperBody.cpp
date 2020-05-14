@@ -13,6 +13,7 @@ QtUpperBody :: QtUpperBody(QDialog *parent):
     setupUi(this);
 
     QObject::connect(upperPushButton, SIGNAL(clicked()), this, SLOT(upperPushButtonClickedHandler()));
+    QObject::connect(closePushButton, SIGNAL(clicked()), this, SLOT(close()));
 
 }
 void QtUpperBody::printStringRep() {

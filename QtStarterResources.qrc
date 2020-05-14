@@ -20,5 +20,6 @@
     <file alias="lowerBodyChalk">lowerBodyChalk.png</file>
     <file alias="coreChalk">coreChalk.png</file>
     <file alias="cardioChalk">cardioChalk.png</file>
+    <file alias="close">closeButton.png</file>
   </qresource>
 </RCC>

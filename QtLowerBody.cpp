@@ -13,6 +13,7 @@ QtLowerBody :: QtLowerBody(QDialog *parent):
     setupUi(this);
 
     QObject::connect(lowerPushButton, SIGNAL(clicked()), this, SLOT(lowerPushButtonClickedHandler()));
+    QObject::connect(closePushButton, SIGNAL(clicked()), this, SLOT(close()));
 
 }
 void QtLowerBody::printStringRep() {

@@ -13,6 +13,7 @@ QtCardio :: QtCardio(QDialog *parent):
     setupUi(this);
 
     QObject::connect(cardioPushButton, SIGNAL(clicked()), this, SLOT(cardioPushButtonClickedHandler()));
+    QObject::connect(closePushButton, SIGNAL(clicked()), this, SLOT(close()));
 
 }
 void QtCardio::printStringRep() {
