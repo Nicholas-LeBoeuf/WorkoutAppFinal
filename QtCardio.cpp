@@ -53,10 +53,10 @@ void QtCardio::cardioPushButtonClickedHandler() {
 void QtCardio::timerPushButtonClickedHandler() {
     printf("Inside timerPushButtonClickedHandler\n");
     QTimer *timer = new QTimer(this);
-    connect(timer, SIGNAL(timeout()), this, SLOT(updateCaption()));
+    connect(timer, SIGNAL(timeout()), this, SLOT(updateTime()));
     timer->start(1000);
 }
-void QtCardio::updateCaption() {
+void QtCardio::updateTime() {
     timeTest = timeTest + 1;
     timeStr = std::to_string(timeTest);
     updateUI();

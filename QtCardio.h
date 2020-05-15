@@ -21,7 +21,7 @@ public Q_SLOTS:
     void cardioPushButtonClickedHandler();
     void timerPushButtonClickedHandler();
     void resetPushButtonClickedHandler();
-    void updateCaption();
+    void updateTime();
 
 };
 
