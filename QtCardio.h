@@ -14,9 +14,14 @@ public:
 
 private:
     std::string cardioWorkoutOutput;
+    int timeTest;
+    std::string timeStr;
 
 public Q_SLOTS:
     void cardioPushButtonClickedHandler();
+    void timerPushButtonClickedHandler();
+    void resetPushButtonClickedHandler();
+    void updateCaption();
 
 };
 
