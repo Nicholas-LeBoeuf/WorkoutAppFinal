@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Quarantine Workout App</string>
   </property>
   <property name="windowOpacity">
    <double>11.000000000000000</double>

@@ -21,5 +21,7 @@
     <file alias="coreChalk">coreChalk.png</file>
     <file alias="cardioChalk">cardioChalk.png</file>
     <file alias="close">closeButton.png</file>
+    <file alias="start">startButton.png</file>
+    <file alias="reset">resetButton.png</file>
   </qresource>
 </RCC>

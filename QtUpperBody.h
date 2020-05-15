@@ -14,9 +14,14 @@ public:
 
 private:
     std::string upperWorkoutOutput;
+    int timeTest;
+    std::string timeStr;
 
 public Q_SLOTS:
     void upperPushButtonClickedHandler();
+    void timerPushButtonClickedHandler();
+    void resetPushButtonClickedHandler();
+    void updateTime();
 
 };
 
